@@ -11,7 +11,8 @@ application demo. We need 2 boards STM32F4 discovery to connect together,
 one acts as SPI master device and the other one is slaver device.
 
 To enable master device, we've defined the following macro in c2c.h
-#define SPI_MASTER
+
+"#define SPI_MASTER"
 
 To enable slaver device, just comment out the macro and re-compile the
 source code again.
